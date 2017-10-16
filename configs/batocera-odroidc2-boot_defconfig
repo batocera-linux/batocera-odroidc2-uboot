@@ -9,3 +9,4 @@ BR2_TARGET_UBOOT_CUSTOM_GIT=y
 BR2_TARGET_UBOOT_CUSTOM_REPO_URL="https://github.com/hardkernel/u-boot.git"
 BR2_TARGET_UBOOT_CUSTOM_REPO_VERSION="odroidc2-v2015.01"
 BR2_PACKAGE_RECALBOX_TARGET_C2=y
+BR2_ROOTFS_POST_BUILD_SCRIPT="board/hardkernel/odroidc2/post-image_uboot.sh"
